@@ -36,7 +36,12 @@
 			
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"GitHub.vscode-pull-request-github"
+				"GitHub.vscode-pull-request-github",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"vue.volar",
+				"github.copilot",
+				"golang.go"
 			]
 		}
 	},
