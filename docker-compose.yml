@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 services:
   db:
     image: mysql:8
@@ -15,7 +15,7 @@ services:
       MTSQL_PASSWORD: "123123" # 业务库密码
     # ports:
     #   - 3306:3306
-      
+
   redis:
     image: redis
     # command: --requirepass "12345678" # redis库密码,不需要密码注释本行
